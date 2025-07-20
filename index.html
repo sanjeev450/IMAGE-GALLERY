@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>image gellary</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    
+ <div class="container">
+        <div class="header">
+            <h1>Modern Gallery</h1>
+            <p>Explore our curated collection of stunning visuals</p>
+        </div>
+
+        <div class="filter-buttons">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="nature">Nature</button>
+            <button class="filter-btn" data-filter="architecture">Architecture</button>
+            <button class="filter-btn" data-filter="abstract">Abstract</button>
+            <button class="filter-btn" data-filter="urban">Urban</button>
+        </div>
+
+        <div class="gallery" id="gallery">
+            
+        </div>
+    </div>
+
+    
+    <div class="lightbox" id="lightbox">
+        <span class="close">&times;</span>
+        <div class="lightbox-content">
+            <span class="prev">&#10094;</span>
+            <img id="lightbox-img" src="" alt="">
+            <span class="next">&#10095;</span>
+        </div>
+    </div>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
